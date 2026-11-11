@@ -37,6 +37,17 @@ dialog{background:#241b15;border-color:#9a7c53;color:#f3e5cb}dialog p{color:#dcc
 @media(max-height:850px) and (min-width:801px){.poster-home{padding-top:12px;padding-bottom:12px}.poster-copy{margin-top:0}.poster-home .poster-title:has(.poster-wordmark){width:min(100%,760px);margin-bottom:12px}.poster-subtitle{font-size:38px}.poster-premise{font-size:20px;line-height:1.65;margin:14px auto}.poster-start{font-size:32px;padding:10px 36px}.poster-actions{gap:4px}.poster-secondary button{padding:4px;font-size:16px}}
 
 /* Story overlays: espresso, antique brass, ivory, and one vermilion action. */
+body.playing .intro-stage,body.playing .intro-stage video{background:#130e0a}
+body.playing .intro-top{background:linear-gradient(#170f09d9,#170f0900);padding-bottom:42px}
+body.playing .intro-kicker{font-family:TitleKai,"KaiTi","STKaiti",serif;font-size:26px;font-weight:400;color:#f0e4cc;letter-spacing:1px;line-height:1.45;margin-bottom:4px;text-shadow:0 2px 14px #0009}
+body.playing .intro-top .textbtn{font-size:15px;line-height:1.6;min-height:40px;padding:5px 0;color:#d3bea0}
+body.playing .intro-top .textbtn:hover{color:#f1d4a5}
+body.playing .intro-top .quiet{font-family:inherit;font-size:15px;line-height:1.6;min-height:44px;padding:9px 18px;border-color:#a88a578c;background:#211812df;color:#f0e4cc;box-shadow:0 2px 12px #0002}
+body.playing .intro-top .quiet:hover{background:#3c2b1de8;border-color:#c7a570}
+body.playing .intro-stage .intro-play{font-family:TitleKai,"KaiTi","STKaiti",serif;font-size:22px;font-weight:400;letter-spacing:1px;line-height:1.5;min-height:48px;padding:12px 28px;border-color:#bd8f57;background:#8c3021;color:#fff0d7;box-shadow:0 8px 36px #0008}
+body.playing .intro-stage .intro-play:hover{background:#a13b29;border-color:#dbb37a}
+body.playing #introStatus{font-size:15px;line-height:1.6;color:#ead6b5;text-shadow:0 1px 9px #000}
+@media(max-width:600px){body.playing .intro-top{padding:18px 5% 34px;gap:14px}body.playing .intro-kicker{font-size:22px}body.playing .intro-top .quiet{font-size:14px;padding:9px 12px}body.playing .intro-stage .intro-play{font-size:20px;padding:12px 22px}body.playing #introStatus{font-size:14px}}
 body.playing .vn-shade{background:linear-gradient(180deg,#170f09c7,transparent 24%,transparent 58%,#170f0970)}
 body.playing .vn-topbar{background:linear-gradient(#170f09c9,#170f0900);padding-bottom:34px}
 body.playing .vn-heading{gap:0;text-shadow:0 2px 14px #0009}

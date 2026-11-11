@@ -35,3 +35,42 @@ dialog{background:#241b15;border-color:#9a7c53;color:#f3e5cb}dialog p{color:#dcc
 @media(max-height:600px) and (min-width:801px){.poster-title{font-size:100px}.poster-copy{margin:0}.poster-premise{font-size:19px;margin:18px 0}.poster-start{font-size:28px;padding:10px 32px}.poster-home{min-height:560px}.vn-heading h2:has(.chapter-couplet){font-size:18px;line-height:1.35}}
 @media print{body:not(.playing){background:white}.report{box-shadow:none;border:0;margin:0;max-width:none}.report .closing-line{color:#5b211b}.route-scroll{overflow:visible}}
 @media(max-height:850px) and (min-width:801px){.poster-home{padding-top:12px;padding-bottom:12px}.poster-copy{margin-top:0}.poster-home .poster-title:has(.poster-wordmark){width:min(100%,760px);margin-bottom:12px}.poster-subtitle{font-size:38px}.poster-premise{font-size:20px;line-height:1.65;margin:14px auto}.poster-start{font-size:32px;padding:10px 36px}.poster-actions{gap:4px}.poster-secondary button{padding:4px;font-size:16px}}
+
+/* Story overlays: espresso, antique brass, ivory, and one vermilion action. */
+body.playing .vn-shade{background:linear-gradient(180deg,#170f09c7,transparent 24%,transparent 58%,#170f0970)}
+body.playing .vn-topbar{background:linear-gradient(#170f09c9,#170f0900);padding-bottom:34px}
+body.playing .vn-heading{gap:0;text-shadow:0 2px 14px #0009}
+body.playing .vn-heading h2{color:#f0e4cc}
+body.playing .vn-heading h2:has(.chapter-couplet){display:block;font-family:TitleKai,"KaiTi","STKaiti",serif;font-size:clamp(22px,1.65vw,30px);line-height:1.45;letter-spacing:1px}
+body.playing .chapter-number{display:block;font-family:TitleKai,"KaiTi","STKaiti",serif;font-size:16px;font-weight:400;color:#d67b59;border:0;padding:0;margin:0 0 7px;line-height:1.4;letter-spacing:1px}
+body.playing .chapter-number:after{content:"";display:inline-block;width:23px;height:1px;background:#c49364;vertical-align:middle;margin-left:11px}
+body.playing .chapter-couplet{display:block}
+body.playing .vn-heading small,body.playing .vn-heading:has(.chapter-couplet) small{font-size:14px;line-height:1.6;color:#dfcfb6;margin-top:8px;letter-spacing:0}
+body.playing .vn-tools button{background:#211812d9;border-color:#a88a576e;color:#f0e4cc;box-shadow:0 2px 12px #0002}
+body.playing .vn-tools button:hover{background:#3c2b1ddf;border-color:#c7a570}
+body.playing .vn-dialogue{background:#211812eb;border-color:#aa8b578c;box-shadow:0 12px 45px #0006}
+body.playing .vn-speaker{color:#e1ba7d}
+body.playing .vn-speaker:before{background:#c39b60}
+body.playing .vn-speech{color:#f5e9d3}
+body.playing .vn-cursor{background:#d4b27a}
+body.playing .vn-tip{color:#c1ad91}
+body.playing .vn-tip:hover{color:#f1d4a5}
+body.playing .vn-controls{border-color:#ae8b543b}
+body.playing .vn-progress{color:#d9c7aa}
+body.playing .vn-controls .textbtn{color:#b7a184}
+body.playing .vn-controls .quiet{background:#8c3021;border-color:#bd8f57;color:#fff0d7}
+body.playing .vn-controls .quiet:hover{background:#a13b29;border-color:#dbb37a}
+body.playing .vn-choices{background:#211812ed;border-color:#a88a578c;box-shadow:0 18px 65px #0007}
+body.playing .vn-choices h3{color:#f5e9d3}
+body.playing .vn-choices .choice{background:#38271ccc;border-color:#a88a575c}
+body.playing .vn-choices .choice:hover{background:#503825e8;border-color:#c49e65}
+body.playing .vn-choices .choice b,body.playing .vn-ending-label{color:#e1ba7d}
+body.playing .vn-choices .choice span{color:#f2e4ca}
+body.playing .vn-choices .choice small{color:#d3c0a2}
+body.playing .vn-choices .textbtn,body.playing .vn-end-actions .textbtn{color:#dbc3a0}
+body.playing .vn-unlock{border-color:#a88a5766;color:#c7b393}
+body.playing .vn-endtitle{color:#f5e9d3}
+body.playing .scene-notice{background:#211812f0;border-color:#aa8b5799;color:#f1e0c2}
+body.playing .scene-notice .quiet{background:#38271c;border-color:#a88a57;color:#f1e0c2}
+@media(max-width:800px){body.playing .vn-heading:has(.chapter-couplet){max-width:54%;width:54%}body.playing .vn-heading h2:has(.chapter-couplet){font-size:18px;line-height:1.5;letter-spacing:0}body.playing .chapter-number{font-size:14px;margin-bottom:5px}body.playing .chapter-number:after{width:16px;margin-left:7px}body.playing .vn-heading:has(.chapter-couplet) small{margin-top:6px}body.playing .vn-topbar{padding-bottom:26px}}
+@media(max-height:550px) and (min-width:650px){body.playing .vn-heading h2:has(.chapter-couplet){font-size:18px;line-height:1.35}body.playing .chapter-number{font-size:14px;margin-bottom:3px}body.playing .vn-heading:has(.chapter-couplet) small{margin-top:4px}body.playing .vn-topbar{padding-bottom:18px}}
